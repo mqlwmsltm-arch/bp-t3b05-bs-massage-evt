@@ -1,88 +1,277 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>발산/마곡 스웨디시 마사지 제대로 받는 관리 요령 | 010-6279-0862</title>
-  <meta name="description" content="발산 마사지 이벤트 블로그 칼럼. 발산역/마곡 스웨디시 아로마 마사지 효과 높이는 관리 수칙 안내.">
-  <style>
-    :root {
-      --primary: #1b2418;
-      --secondary: #273322;
-      --accent: #8fad88;
-      --bg: #f5f7f4;
-      --text: #2c3529;
-      --text-muted: #5e6b5a;
-      --border: #dfebd9;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      font-family: 'Pretendard', sans-serif;
-      line-height: 1.8;
-    }
-    header {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 24px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid var(--border);
-    }
-    .logo {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: var(--primary);
-      text-decoration: none;
-    }
-    .logo span { color: var(--accent); }
-    nav { display: flex; gap: 20px; }
-    nav a { color: var(--text-muted); text-decoration: none; font-weight: 700; }
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    .post-title { font-size: 1.8rem; font-weight: 900; color: var(--primary); margin-bottom: 20px; }
-    .meta { color: var(--accent); font-weight: 700; margin-bottom: 30px; font-size: 0.95rem; }
-    .content { font-size: 1.1rem; color: var(--text-muted); }
-    .content p { margin-bottom: 24px; }
-    footer {
-      background-color: var(--primary);
-      color: #dfebd9;
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <title>발산 마사지 이벤트 블로그 | 돈 아깝지 않은 마사지, 진짜 후기</title>
+    <meta name="description" content="발산 마사지 이벤트 블로그. 야, 여기 마사지 개쩐다. 3만원대 가성비 끝판왕. 진짜 손맛, 거침없는 가격. 내가 직접 써본 후기다. 지금 예약하러 가자. 발산역 도보3분.">
+    <meta name="keywords" content="발산 마사지, 발산 마사지 이벤트, 발산 스웨디시, 발산 타이마사지, 발산 건마, 가성비 마사지, 발산역 마사지, 발산 마사지 블로그">
+    <link rel="canonical" href="https://t3b05-bs-massage-evt.vercel.app/blog">
+    <meta property="og:title" content="발산 마사지 이벤트 블로그 | 강력한 가성비 마사지 후기">
+    <meta property="og:description" content="발산 마사지 이벤트 블로그. 야, 여기 마사지 개쩐다. 3만원대 가성비 끝판왕. 진짜 손맛, 거침없는 가격. 내가 직접 써본 후기다. 지금 예약하러 가자.">
+    <style>
+        /* ── Reset & Base ── */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a1a1a;
+            color: #f5f5f5;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        ul {
+            list-style: none;
+        }
+        /* ── Color tokens ── */
+        :root {
+            --bg: #1a1a1a;
+            --text: #f5f5f5;
+            --accent: #e6ff00;
+            --secondary: #ff3c00;
+            --muted: #888;
+            --border: #333;
+        }
+        /* ── Typography ── */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            margin-bottom: 0.75rem;
+        }
+        h1 {
+            font-size: 3rem;
+            border-left: 8px solid var(--accent);
+            padding-left: 1rem;
+            margin: 2rem 0;
+        }
+        h2 {
+            font-size: 2.25rem;
+            border-bottom: 4px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        h3 {
+            font-size: 1.75rem;
+            color: var(--accent);
+        }
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+        /* ── Utility classes ── */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+        .section {
+            padding: 3rem 0;
+            border-bottom: 2px solid var(--border);
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        /* ── Nav ── */
+        nav {
+            background: #111;
+            border-bottom: 4px solid var(--accent);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .flex {
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--accent);
+        }
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav ul li a {
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.5rem 1rem;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        nav ul li a:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        /* Hamburger menu for mobile */
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: block;
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background: #111;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                padding: 1rem;
+                border-bottom: 4px solid var(--accent);
+            }
+            nav ul.active {
+                display: flex;
+            }
+        }
+        /* ── Blog post card ── */
+        .blog-post {
+            background: #222;
+            border: 2px solid var(--border);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .blog-post::before {
+            content: "▶";
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            background: var(--accent);
+            color: #111;
+            font-weight: 900;
+            padding: 0.25rem 1rem;
+            font-size: 0.9rem;
+        }
+        .blog-post .date {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .blog-post p {
+            color: #ddd;
+        }
+        .blog-post .cta {
+            display: inline-block;
+            background: var(--secondary);
+            color: #fff;
+            font-weight: 900;
+            padding: 0.75rem 2rem;
+            border: none;
+            text-transform: uppercase;
+            margin-top: 1.5rem;
+            transition: 0.2s;
+        }
+        .blog-post .cta:hover {
+            background: var(--accent);
+            color: #111;
+        }
+        /* ── Footer ── */
+        footer {
+            background: #111;
+            border-top: 4px solid var(--accent);
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: auto;
+        }
+        footer p {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        /* ── responsive-768 ── */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <a href="index.html" class="logo">발산<span>BS</span> 마사지</a>
     <nav>
-      <a href="index.html">홈</a>
-      <a href="about.html">로컬 가이드</a>
-      <a href="blog.html">힐링 칼럼</a>
+        <div class="container flex">
+            <div class="logo">🔥 MASSAGE KR</div>
+            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="toggleMenu()">☰</button>
+            <ul id="nav-menu">
+                <li><a href="/">홈</a></li>
+                <li><a href="/event">이벤트</a></li>
+                <li><a href="/blog">블로그</a></li>
+                <li><a href="/contact">예약/문의</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <main>
-    <h1 class="post-title">발산/마곡 스웨디시 마사지 효과 극대화하는 솔직 꿀팁</h1>
-    <div class="meta">작성일: 2026.05.27 | 작성자: 발산힐링짱</div>
-    <div class="content">
-      <p>우리 직장인 형님 동생들 반갑다! 기분 좋게 뭉친 피로 날리러 발산역 마사지 숍을 예약했는데, 어떻게 받아야 제대로 힐링할 수 있는지 핵심 요령 딱 두 가지만 간단히 짚어줄게.</p>
+    <main class="container section">
+        <h1>발산 마사지 이벤트 블로그</h1>
+        <article class="blog-post">
+            <div class="date">2025.04.07 | 발산역 마사지</div>
+            <h2>야, 발산 마사지 3만원대면 이게 가능하다고?</h2>
+            <p>솔직히 말할게. 나는 마사지에 돈 쓰는 거 병적으로 아까워하는 타입이야. 근데 발산에 있는 이 마사지샵, 씨발 가격 보고 눈을 의심했다. 3만원대? 이게 맞아? 거기다 이벤트까지 하면 진짜 개혜자임.</p>
+            <p>들어가자마자 분위기부터 다르다. 청결하고, 정리정돈 잘 되어 있고. 직원들도 친절한데 가식적이지 않아. 그냥 현실적이고 꼰대질 안 함. "형, 어디 아픈 데 집중해드릴까요?" 이렇게 바로 들어옴. 개좋아.</p>
+            <p>나는 담걸린 거 하고 허리 통증이 있었는데, 60분 받는 동안 손이 미친 듯이 파고들었다. '아, 이게 진짜 손맛이구나' 싶었음. 압력도 강도 조절 가능하고, 시원함이 뼛속까지 전해짐. 끝나고 일어나니까 몸이 가벼워서 속았다 싶을 정도.</p>
+            <p>요즘 물가에 3만원대면 보통 커피 두 잔 마시고 끝인데, 여기는 60분 풀 마사지 + 기분 좋은 개운함까지. 근데 그것뿐만이 아님. 이벤트 기간이라 추가 서비스도 받을 수 있더라. 찜질팩, 스트레칭, 심지어 간단한 다과도 줌. "야, 이거 장사 되냐?"고 물었더니 "단골 만들어드리려고요" 하면서 웃음. 형, 나 이미 단골임.</p>
+            <p>위치는 발산역에서 도보 3분. 진짜 편함. 지하철 타고 가서 마사지 받고 쇼핑하고 집 가면 하루가 알차다. 주차도 가능한데, 자리가 많지는 않으니까 대중교통 추천함.</p>
+            <p>마사지 고민한다면 주저하지 마라. 이 가격에 이 퀄리티면 다른 데 갈 이유가 없음. 나처럼 돈 아까워하는 사람한테는 더할 나위 없이 완벽한 곳이다. 진짜다. 아니면 내가 후원받는 거 아님; 그냥 내 돈 내고 다녀본 후기임.</p>
+            <a class="cta" href="tel:+821062790862">📞 지금 예약하러 가자</a>
+        </article>
 
-      <p>첫째, <strong>충분한 온수 샤워를 먼저 거쳐라.</strong> 스웨디시나 아로마 마사지를 받기 전, 10분 정도 온수로 가볍게 몸을 씻어내어 모공을 열고 근육을 살짝 이완시켜 둬야 오일 흡수율도 배가되고 관리사의 부드러운 스웨디시 압 조절이 피부 깊숙이 스며들어 피로가 개시원하게 풀린다.</p>
+        <section class="section">
+            <h3>🔁 다른 글 보기</h3>
+            <p>조만간 발산 스웨디시 비교, 타이마사지 차이점, 그리고 주변 맛집 정보도 쓸 예정. 기대해라. 너네가 원하는 진짜 정보만 때려박음.</p>
+        </section>
+    </main>
 
-      <p>둘째, <strong>실장에게 원하는 압 강도를 구체적으로 말해줘라:</strong> 그냥 "알아서 해주세요" 하지 말고, 010-6279-0862 실장님 번호로 사전 예약을 꽂을 때 "어깨가 유독 결리니 목 주변 집중으로 압 부드럽게 세팅해달라" 혹은 "스웨디시 감성 마인드 훌륭한 관리사로 배정해달라"고 확실히 요구해두는 센스가 핵심 중의 핵심이라고!</p>
-    </div>
-  </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 발산 마사지 이벤트 | 010-6279-0862 | 발산역 도보 3분</p>
+        </div>
+    </footer>
 
-  <footer>
-    <p>발산 마사지 이벤트 가이드 | 대표문의: 010-6279-0862</p>
-    <p>&copy; 2026 발산 마사지 가성비 가이드. All rights reserved.</p>
-  </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

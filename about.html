@@ -1,100 +1,150 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>가이드 및 소개 - 발산 마사지 이벤트 로컬 스웨디시 눈탱이 방지 안내 | 010-6279-0862</title>
-  <meta name="description" content="발산 마사지 이벤트 리얼 가이드 블로그 소개. 내 돈 주고 직접 힐링을 찾는 마곡/발산 직장인 형의 정찰제 마사지 숍 분석 이야기.">
-  <style>
-    :root {
-      --primary: #1b2418;
-      --secondary: #273322;
-      --accent: #8fad88;
-      --bg: #f5f7f4;
-      --text: #2c3529;
-      --text-muted: #5e6b5a;
-      --border: #dfebd9;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      font-family: 'Pretendard', sans-serif;
-      line-height: 1.8;
-    }
-    header {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 24px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid var(--border);
-    }
-    .logo {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: var(--primary);
-      text-decoration: none;
-    }
-    .logo span { color: var(--accent); }
-    nav { display: flex; gap: 20px; }
-    nav a { color: var(--text-muted); text-decoration: none; font-weight: 700; }
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    .section-title {
-      font-size: 1.8rem;
-      font-weight: 900;
-      color: var(--primary);
-      margin-bottom: 30px;
-      border-left: 4px solid var(--accent);
-      padding-left: 12px;
-    }
-    .content {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-    }
-    .content p { margin-bottom: 24px; }
-    .content h3 { color: var(--primary); font-size: 1.3rem; margin: 32px 0 16px; font-weight: 800; }
-    footer {
-      background-color: var(--primary);
-      color: #dfebd9;
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <title>발산 마사지 이벤트 정보 | 강력한 가성비 마사지</title>
+    <meta name="description" content="발산 마사지 이벤트 정보! 상세 위치, 가격, 시간. 010-6279-0862. 야, 여기 마사지 개쩐다. 3만원대 가성비 끝판왕. 강력한 손맛, 거침없는 가격. 지금 예약하러 가자. 발산역 도보3분.">
+    <meta name="keywords" content="발산 마사지 정보, 발산 마사지 이벤트 상세, 발산 스웨디시, 발산 타이마사지, 발산 건마, 가성비 마사지, 발산역 마사지">
+    <link rel="canonical" href="https://t3b05-bs-massage-evt.vercel.app/info">
+    <meta property="og:title" content="발산 마사지 이벤트 정보 | 강력한 가성비 마사지">
+    <meta property="og:description" content="발산 마사지 이벤트 정보! 010-6279-0862. 야, 여기 마사지 개쩐다. 3만원대 가성비 끝판왕. 발산역 도보3분, 강서구 No.1 가성비 마사지.">
+    <meta property="og:image" content="/images/og-info.png">
+    <meta property="og:url" content="https://t3b05-bs-massage-evt.vercel.app/info">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <a href="index.html" class="logo">발산<span>BS</span> 마사지</a>
-    <nav>
-      <a href="index.html">홈</a>
-      <a href="about.html">로컬 가이드</a>
-      <a href="blog.html">힐링 칼럼</a>
+    <!-- 네비게이션 (이전 페이지와 동일) -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="/" class="logo">💆 발산 마사지</a>
+            <button class="hamburger-menu" aria-label="메뉴 열기">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links flex">
+                <li><a href="/">홈</a></li>
+                <li><a href="/info" class="active">정보</a></li>
+                <li><a href="/review">후기</a></li>
+                <li><a href="/contact">문의</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <main>
-    <h2 class="section-title">발산/마곡 직장인들의 건강 보안관을 자처하는 형의 운영 소신</h2>
-    <div class="content">
-      <p>안녕 형들! 발산 마사지 이벤트 가이드 블로그의 방장이야. 마곡지구와 발산역 일대 오피스 빌딩에서 야근을 밥 먹듯이 하며 피로 누적으로 고생하는 대기업, 중소기업 직장인 형님들의 피로를 100% 깔끔하게 날려주기 위해 이 가이드를 쓰기 시작했어. 나 역시 쉼 없이 일하다가 온몸이 뭉쳐서 마사지 숍을 찾아다녔던 찐 로컬 힐링 매니아 형이지.</p>
+    <!-- 메인 콘텐츠 -->
+    <main>
+        <!-- 히어로 섹션 -->
+        <section class="section hero">
+            <div class="container">
+                <h1>야, 여기 마사지 개쩐다.<br>정보 다 알려준다.</h1>
+                <p class="hero-sub">3만원대 가성비 끝판왕. 강력한 손맛, 거침없는 가격. 이벤트 정보 한방에 정리.</p>
+                <div class="hero-cta">
+                    <a href="tel:01062790862" class="btn btn-primary">📞 전화 예약: 010-6279-0862</a>
+                </div>
+            </div>
+        </section>
 
-      <p>내가 왜 소중한 개인 시간을 내서 이런 <strong>발산 마사지 이벤트</strong> 리얼 공략집을 연재하고 있는지 솔직히 얘기해줄게. 이 동네는 마곡 오피스 타운의 확장과 함께 수많은 힐링 테라피 숍들이 들어섰는데, 정작 뚜껑을 열어보면 관리는 대충대충 시간 때우기로 일관하면서 가격은 강남 수준으로 쳐받는 비양심 악덕 숍들이 골목 구석구석에 널려 있어. 나 또한 초창기 아무 숍이나 들어갔다가 한 달 치 취미 생활 용돈을 다 날리고 어깨 통증만 더 심해졌던 눈물 나는 흑역사가 있거든.</p>
+        <!-- 위치 & 기본 정보 -->
+        <section class="section info-location">
+            <div class="container">
+                <div class="grid two-column">
+                    <div class="info-card">
+                        <h2>📍 위치 & 시간</h2>
+                        <ul>
+                            <li><strong>주소:</strong> 서울 강서구 발산로 123-45 (발산역 3번 출구 도보 3분)</li>
+                            <li><strong>영업 시간:</strong> 매일 10:00 - 23:00 (주말·공휴일 동일)</li>
+                            <li><strong>주차:</strong> 건물 지하 주차장 2시간 무료</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h2>💰 이벤트 가격</h2>
+                        <ul>
+                            <li><strong>타이 마사지 60분:</strong> 29,000원 (정가 49,000원)</li>
+                            <li><strong>스웨디시 60분:</strong> 35,000원 (정가 55,000원)</li>
+                            <li><strong>건식 마사지 60분:</strong> 25,000원 (정가 39,000원)</li>
+                            <li><strong>패키지 (타이+스웨디시 90분):</strong> 45,000원</li>
+                        </ul>
+                        <p class="note">※ 이벤트 가격은 선착순 30명 한정. 예약 시 '이벤트' 언급 필수.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <h3>허위 광고 싹 가려내고 형들의 지갑과 척추를 지킨다</h3>
-      <p>이 블로그는 형들이 단돈 1만 원이라도 세련되게 아끼면서, 발산 최고 수준의 정통 관리 기법과 철저한 개인 1인 위생 샤워 시설을 갖춘 진짜 보물 같은 숍들만 추려내어 아카이브하는 공간이야. 돈 받고 가짜 별점 테러나 조작하는 바이럴 광고들과는 완전히 격이 다르니 안심해도 좋아.</p>
+        <!-- 상세 이벤트 내용 -->
+        <section class="section event-detail">
+            <div class="container">
+                <h2>🔥 이벤트 상세 — 뭐가 특별한데?</h2>
+                <div class="flex event-highlights">
+                    <div class="highlight-item">
+                        <h3>👊 역대급 손맛</h3>
+                        <p>10년 경력 전문 테라피스트가 시원하게 풀어준다. 근육 뭉친 거 다 녹여준다고.</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h3>💰 가격 파괴</h3>
+                        <p>3만원대에 이 퀄리티? 말도 안 돼. 다른 데 절반 가격에 두 배 효과.</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h3>⏰ 예약 필수</h3>
+                        <p>선착순 마감이라 빨리 전화해라. 당일 예약도 가능하지만 일찍 잡아야 자리 있다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <p>발산역 먹자골목 근처나 마곡동 일대에서 스웨디시와 타이 테라피의 정수를 가성비 최대로 경험하고 싶다면 고민하지 말고 010-6279-0862 실장님 다이렉트 핫라인으로 예약 문자 한 통 때려봐. 형 소개로 연락했다고 하면 정찰제 할인은 물론, 룸 컨디션 제일 좋은 명당방으로 바로 배정해줄 테니 맘 푹 놓고 개쩌는 힐링을 맛보라구!</p>
-    </div>
-  </main>
+        <!-- FAQ 섹션 (브루털리스트 스타일) -->
+        <section class="section faq">
+            <div class="container">
+                <h2>❓ 자주 묻는 질문 — 답은 간결하게</h2>
+                <div class="faq-list">
+                    <details>
+                        <summary>예약은 어떻게 해? 전화만 되나?</summary>
+                        <p>전화 010-6279-0862로 바로 예약. 카톡도 가능하지만 전화가 제일 빠르다. 문자 보내면 확인 후 연락 준다.</p>
+                    </details>
+                    <details>
+                        <summary>이벤트 가격은 언제까지?</summary>
+                        <p>정해진 기간 없음. 선착순 30명 마감되면 끝. 지금 당장 예약해라.</p>
+                    </details>
+                    <details>
+                        <summary>남자도 받을 수 있나?</summary>
+                        <p>당연히. 남녀노소 다 받는다. 단, 페어 마사지룸도 있으니 커플끼리 와도 됨.</p>
+                    </details>
+                    <details>
+                        <summary>취소/환불 규정은?</summary>
+                        <p>예약 30분 전까지 취소 시 100% 환불. 이후에는 50% 환불. 노쇼는 환불 불가. 당연한 거다.</p>
+                    </details>
+                    <details>
+                        <summary>발산역에서 어떻게 가나?</summary>
+                        <p>3번 출구 나와서 직진 200m. 편의점 옆 건물 2층. 길 찾기 어려우면 전화해.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p>발산 마사지 이벤트 가이드 | 예약문의: 010-6279-0862</p>
-    <p>&copy; 2026 발산 마사지 가성비 가이드. All rights reserved.</p>
-  </footer>
+        <!-- 지역 시그널 강조 + CTA -->
+        <section class="section local-signal">
+            <div class="container">
+                <div class="signal-content">
+                    <h2>🏆 발산 No.1 가성비 마사지</h2>
+                    <p>강서구 발산동, 마곡, 화곡에서 제일 싸고 좋다. 입소문 난 맛집 같은 곳. 와보면 앎.</p>
+                    <div class="signal-callout">
+                        <span>📢 발산 마사지 이벤트 정보는 여기서 끝. 이제 전화해.</span>
+                        <a href="tel:01062790862" class="btn btn-primary">010-6279-0862</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 (이전 페이지와 동일) -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 발산 마사지 이벤트 | www.dsm-assa.com</p>
+            <p class="footer-contact">문의: 010-6279-0862 | 주소: 서울 강서구 발산로 123-45 2층</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
